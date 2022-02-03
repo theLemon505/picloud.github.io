@@ -1,0 +1,149 @@
+.page{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.welcome{
+    line-height: 1.4em;
+    color: #be4b59;
+    font-size: 3cm;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    line-height: 1.4em;
+    color: #be4b59;
+    font-size: 2cm;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    line-height: 1.4em;
+    color: #fbfbfb;
+    padding-top: 1vh;
+    font-size: 2cm;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+    line-height: 1em;
+    color: #fbfbfb;
+    font-size: 1cm;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p1{
+    line-height: 1em;
+    color: #be4b59;
+    font-size: 1cm;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.lock{
+    width: 35%;
+}
+
+.book{
+    width: 35%;
+}
+
+.powericon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width:25%;
+}
+
+.about{
+    padding: 15%;
+    left: 0px;
+    right: 0px;
+    position: relative;
+    background-color: #be4b59;
+    text-align: center;
+}
+
+.security{
+    padding: 5%;
+    left: 0px;
+    right: 0px;
+    position: relative;
+    background-color: #be4b59;
+    text-align: center;
+}
+
+.power{
+    padding: 15%;
+    left: 0px;
+    right: 0px;
+    position: relative;
+    background-color: #fbfbfb;
+    text-align: center;
+}
+
+.pagelogo{
+    width: 40%;
+    margin-top: 5%;
+}
+
+.logo{
+    width: 5%;
+    float:left;
+    margin: 5px;
+    margin-top: 7px;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #fbfbfb;
+}
+
+.header{
+    text-align: center;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: #262626;
+}
+
+.headerbutton{
+    font-size: 0.8cm;
+    font-family: 'Josefin Sans', sans-serif;
+    transition-duration: 100ms;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color:#fbfbfb;
+    border: none;
+    background-color: #262626;
+}
+
+.headerbutton:hover{
+    background-color: #be4b59;
+}
+
+.headerbutton:active{
+    background-color: #963641;
+}
+
+.signup{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.8cm;
+    transition-duration: 100ms;
+    padding: 1.5%;
+    color: #fbfbfb;
+    float:right;
+    border: none;
+    background-color: #262626;
+}
+
+.signup:hover{
+    background-color: #73d892;
+}
+
+.signup:active{
+    background-color: #5cb877;
+}
